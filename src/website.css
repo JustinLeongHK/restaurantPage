@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --background: #0063b2ff;
+  --foreground: #9cc3d5ff;
+}
+
+main {
+  height: 1800px;
+}
+nav {
+  background-color: var(--background);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+nav div {
+  background-color: var(--foreground);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+nav div:active {
+  background-color: var(--background);
+  margin-top: 5px;
+}
+
+footer {
+  height: 80px;
+  background-color: var(--background);
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+p {
+  padding: 10px 20px;
+  font-size: 20px;
+}

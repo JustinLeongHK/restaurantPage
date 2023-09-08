@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --background: #0063b2ff;
+  --foreground: #9cc3d5ff;
+}
+
+main article {
+  background-color: var(--foreground);
+  width: max(450px, 30vw);
+  height: 200px;
+  border-radius: 10px;
+  white-space: pre-line;
+}
+
+main > article:first-child {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main article {
+  border-radius: 10px;
+  border: 2px solid black;
+}
